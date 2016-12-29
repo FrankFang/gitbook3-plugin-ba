@@ -1,25 +1,25 @@
 {
-    "name": "gitbook-plugin-ga",
-    "description": "Google Analytics tracking for your gitbook",
+    "name": "gitbook-plugin-3-ba",
+    "description": "Baidu Analytics tracking for your gitbook version 3",
     "main": "index.js",
-    "version": "1.0.1",
+    "version": "0.9.0",
     "engines": {
-        "gitbook": ">=2.5.1"
+        "gitbook": ">=3.0.0"
     },
-    "homepage": "https://github.com/GitbookIO/plugin-ga",
+    "homepage": "https://github.com/frankfang/gitbook3-plugin-ba",
     "repository": {
         "type": "git",
-        "url": "https://github.com/GitbookIO/plugin-ga.git"
+        "url": "https://github.com/FrankFang/gitbook3-plugin-ba.git"
     },
     "license": "Apache-2.0",
     "bugs": {
-        "url": "https://github.com/GitbookIO/plugin-ga/issues"
+        "url": "https://github.com/FrankFang/gitbook3-plugin-ba/issues"
     },
     "gitbook": {
         "properties": {
             "token": {
                 "type": "string",
-                "title": "Google Analytics Token",
+                "title": "Baidu Analytics Token",
                 "required": true
             },
             "configuration": {
